@@ -1,0 +1,78 @@
+.container{
+	width:90%;
+	margin:0 auto;
+	margin-bottom:80px;
+	margin-top:20px;
+}
+.demo-card-square.mdl-card {
+	width: 300px;
+	height: 300px;
+}
+.demo-card-square > .mdl-card__title {
+	color: #152655;
+}
+.one{
+	background:url('../img/sindico/cadastro.png')  no-repeat #F5F5F5;
+}
+.ocorrencias{
+	background:url('../img/sindico/ocorrencias.png')  no-repeat #F5F5F5;
+}
+.enquetes{
+	background:url('../img/sindico/enquetes.png')  no-repeat #F5F5F5;
+}
+.festa{
+	background:url('../img/sindico/festa.png')  no-repeat #F5F5F5;
+}
+.usuario{
+	background:url('../img/sindico/usuario.png')  no-repeat #F5F5F5;
+}
+.forn{
+	background:url('../img/sindico/fornecedores.png')  no-repeat #F5F5F5;
+}
+.func{
+	background:url('../img/sindico/funci.png')  no-repeat #F5F5F5;
+}
+.demo{
+	background:url('../img/sindico/demo.png')  no-repeat #F5F5F5;
+}
+.his{
+	background:url('../img/sindico/his.png')  no-repeat #F5F5F5;
+}
+.bole{
+	background:url('../img/sindico/bole.png')  no-repeat #F5F5F5;
+}
+.graf{
+	background:url('../img/sindico/chat.png')  no-repeat #F5F5F5;
+}
+.grafico{
+	background:url('../img/sindico/graf.png')  no-repeat #F5F5F5;
+}´
+
+
+@media (min-width: 1000px) and (max-width: 1200px){
+	.container{
+		width:100%;
+	}
+	.demo-card-square.mdl-card {
+		width: 230px;
+		height: 230px;
+	}	
+	.one{
+		background:
+		url('../img/sindico/cadastro1.png')  no-repeat #ededed;
+	}
+	.ocorrencias{
+		background:
+		url('../img/sindico/ocorrencias.png')  no-repeat #ededed;
+	}
+	
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+	.container{
+		width:100%;
+	}
+	.demo-card-square.mdl-card {
+		width: 300px;
+		height: 300px;
+	}	
+}
